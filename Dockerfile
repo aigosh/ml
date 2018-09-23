@@ -14,5 +14,6 @@ RUN ./conda install --quiet --yes \
     'numpy=1.11*'
 
 VOLUME /opt/notebooks
+VOLUME /opt/datasets
 
 CMD ./jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''

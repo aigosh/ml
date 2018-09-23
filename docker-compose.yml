@@ -9,3 +9,4 @@ services:
       host
     volumes:
       - ./notebooks:/opt/notebooks
+      - ./datasets:/opt/datasets

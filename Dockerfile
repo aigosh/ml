@@ -11,7 +11,7 @@ RUN ./conda install --quiet --yes \
     'scipy=1.1*' \
     'scikit-learn=0.19*' \
     'sympy=1.1*' \
-    'numpy=1.11*'
+    'numpy=1.11*'   
 
 VOLUME /opt/notebooks
 VOLUME /opt/datasets
